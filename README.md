@@ -12,4 +12,4 @@ Duration : 2 days.
 
 Website
 --------
-[WoMoz BootCamp FISAT](http://www.mozilla.org)
+[WoMoz BootCamp FISAT](http://www.mozilla.org/)
