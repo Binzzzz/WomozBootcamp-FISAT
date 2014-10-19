@@ -1,7 +1,7 @@
 Womoz Bootcamp v2
 ===================
 
-Date: (yet to be decided)
+Date: January first week
 -------------------------
 
 Venue: FISAT, Ankamaly
