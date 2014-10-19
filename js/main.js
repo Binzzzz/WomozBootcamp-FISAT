@@ -1,5 +1,6 @@
 jQuery(function($) {'use strict',
 	
+	
 	//Countdown js
 	 $("#countdown").countdown({
 			date: "03 january 2015 10:00:00",
