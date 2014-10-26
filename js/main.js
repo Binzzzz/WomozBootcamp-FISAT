@@ -3,7 +3,7 @@ jQuery(function($) {'use strict',
 	
 	//Countdown js
 	 $("#countdown").countdown({
-			date: "03 january 2015 10:00:00",
+			date: "10 january 2015 10:00:00",
 			format: "on"
 		},
 		
@@ -79,11 +79,11 @@ jQuery(function($) {'use strict',
 		lat: 10.231454,
 		lng: 76.408848,
 		scrollwheel:false,
-		zoom: 16,
+		zoom: 17,
 		zoomControl : false,
 		panControl : false,
 		streetViewControl : false,
-		mapTypeControl: true,
+		mapTypeControl: false,
 		overviewMapControl: false,
 		clickable: false
 	});

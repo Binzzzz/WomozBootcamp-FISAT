@@ -81,7 +81,7 @@
 
   .fixed-menu .navbar-right li a {
     padding: 20px 15px;
-    font-size: 17px;
+    font-size: 12px;
   }
  
  #countdown li {
@@ -143,7 +143,7 @@
   }
 
   #home {
-    margin-top: 10%;
+    margin-top: 60px;
   }
 
   #main-slider .carousel-caption {
@@ -206,6 +206,8 @@
    /*event */
   .single-event {
     margin-bottom: 40px;
+    width: 37%;
+    margin-left: 30%;
   }
 
 
@@ -294,7 +296,7 @@
   /* Home */
 
   #home {
-    margin-top: 18%;
+    margin-top:60px;
   }
 
   .fixed-menu .container {
@@ -449,3 +451,17 @@
 
 }
 
+@media (max-width:500px)
+{
+    #home .carousel-caption{
+        max-width: 100%;
+        bottom: 0%;
+    }
+}
+
+@media(min-height:824px)
+{
+    .eventimage{
+        width:30%;
+    }
+}

@@ -7,17 +7,18 @@
 **************************/
 
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'SourceSansPro-ExtraLightIt';
   font-size: 17px;
   color: #fff
 }
 
 
 .btn {
-  border-radius: 0;
-  font-family: 'Yanone Kaffeesatz','sans-serif';
-  font-size: 20px;
-  padding: 9px 23px;
+border-radius: 7px;
+font-family: "SourceSansPro-ExtraLightIt";
+font-size: 17px;
+padding: 14px 15px;
+  margin-left: 4%;
 }
 
 a {
@@ -26,7 +27,9 @@ a {
   -o-transition: 300ms;
   transition: 300ms;
 }
-
+.headlogo{
+    
+}
 a:focus, 
 a:hover {
   text-decoration: none;
@@ -34,9 +37,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Yanone Kaffeesatz', 'sans-serif';
-  font-weight: 300;
-  text-transform: uppercase;
+  font-family: 'SourceSansPro-ExtraLightIt';
+  font-weight: 400;
 }
 
 h2 {
@@ -64,8 +66,8 @@ h2 {
 
 .header-top {
   display: block;
-  overflow: hidden;
-  padding: 25px;
+  overflow: visible;
+  padding: 0px;
 }
 
 .main-nav {
@@ -102,45 +104,48 @@ h2 {
 }
 
 .navbar-brand {
-  background-color: #1B7B98;
+  background-color: transparent;
   height: 90px;
   margin-bottom: 20px;
   position: relative;
-  width: 297px;
+  width: 243px;
 }
 
 .navbar-brand img {
-  position: absolute;
-  top: -35px;
+position: absolute;
+top: 0px;
+height: 92px;
+left: 4px;
 }
 
 .navbar-right {
-  background-color: #1B7B98;
+  background-color: #195D96;
   padding:0 95px 0 0;
   opacity: .9
+    margin-top: 27px;
 }
 
 .navbar-right li a {
-  padding: 35px 21px;
-  font-size: 22px;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: 'Yanone Kaffeesatz', 'sans-serif';
-  font-weight: 300;
+ padding: 20px 27px;
+font-size: 17px;
+color: #FFF;
+text-transform: uppercase;
+font-family: "SourceSansPro-ExtraLightIt";
+font-weight: 30;
 }
 
 .navbar-right li a:hover, 
 .navbar-right li a:focus,  
 .navbar-right .active a {
-  background-color: #fff;
-  color: #16728f
+  background-color: #504F55;
+  color: #F2D74A;
 }
 
 
 .fixed-menu {
-  background-color: #1B7B98;
-  position: fixed;
-  top: 0;
+  background-color: #195D96;
+position: fixed;
+top: 0px;
 }
 
 .fixed-menu .navbar-right {
@@ -159,12 +164,15 @@ h2 {
   margin-top: 0;
   padding: 0;
   margin-bottom: 0;
-  width: 125px;
+  width: 160px;
+  left: 26px;
 }
 
 .fixed-menu .navbar-brand img {
   height:60px;
+  width: 155px;
   top: 0;
+  left:-27px;
 }
 
 .fixed-menu .header-top {
@@ -180,62 +188,59 @@ h2 {
 #home {
   position: relative;
   overflow: hidden;
+    height:100vh;
+    background: url('../images/slider/tryout1.jpeg') no-repeat center center/cover transparent;
 }
 
-#main-slider img {
-  width: 100%
-}
 
-#main-slider 
+#home
 .carousel-caption {
   background: none repeat scroll 0 0 #000000;
-  bottom: 14%;
+  bottom: 10%;
   float: left;
   left: 0;
   opacity: 0.8;
   padding:10px 60px 35px;
   right: inherit;
-  text-transform: uppercase;
   color: #fff;
   text-align: left;
 }
 
 
-#main-slider 
+#home
 .carousel-caption h2 {  
-  font-size: 38px;
- 
+font-size: 25px; 
 }
 
-#main-slider 
+#home
 .carousel-caption h4 {
   font-size: 24px;
 }
 
-#main-slider 
+#home
 .carousel-caption a {
-  font-size: 22px;
-  color: #2da1c5
+  font-size: 19px;
+  color: #2da1c5;
 }
 
-#main-slider 
+#home 
 .carousel-caption a:hover {
-  color: #2588a6
+  color: #2588a6;
 }
 
-#main-slider 
+#home
 .carousel-caption a:hover i {
-  margin-left: 35px
+  margin-left: 15px;
 }
 
-#main-slider 
+#home
 .carousel-caption a i {
   margin-left: 15px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #main-slider 
@@ -256,7 +261,7 @@ h2 {
 
 #explore {
   background-color: #C34C39;
-  background-image: url("../images/event-bg.jpg");
+  background-image: url("../images/even-bg.jpg");
   background-position: center bottom;
   background-size: contain;
   background-repeat:no-repeat;
@@ -266,13 +271,14 @@ h2 {
 }
 
 .watch {
-  position: absolute;
-  left: 0;
-  top: 7%;
+position: absolute;
+left: 0px;
+top: 13%;
+width: 48%;
 }
 
 #explore h2 {
-  font-size: 42px;
+  font-size: 35px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -300,14 +306,16 @@ h2 {
 
 #countdown li span {
   display: block;
-  font-size: 40px;
-  font-weight: 700;
-  height: 82px;
-  line-height: 79px;
-  width: 75px;
-  border-radius: 10px;
-  border-right: 1px solid #9e3e2e;
-  border-bottom: 1px solid #9e3e2e;
+font-size: 29px;
+font-weight: 700;
+height: 64px;
+line-height: 59px;
+width: 66px;
+border-radius: 9px;
+border-right: 1px solid #9E3E2E;
+border-bottom: 1px solid #9E3E2E;
+border-bottom-style: hidden;
+border-style: hidden;
 }
 
 #countdown li .days {
@@ -354,12 +362,12 @@ h2 {
   width: 1px;
 }
 
-.cart {
-  background-color: #b34534;  
-  position: absolute;
-  right:-200px;
-  top: 37%;
-  width:252px;
+.fbshare {
+background-color: #B34534;
+position: absolute;
+right: -71px;
+top: 78%;
+width: 97px;
    -webkit-transition: all 0.7s ease-in-out;
   -moz-transition: all 0.7s ease-in-out;
   -ms-transition: all 0.7s ease-in-out;
@@ -367,23 +375,55 @@ h2 {
   transition: all 0.7s ease-in-out;
 }
 
-.cart:hover {
+.fbshare:hover {
   right:0;
 }
 
 
-.cart a {
+.fbshare a {
   color: #FFFFFF;
   display: block;
   font-size: 24px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
-.cart a i {
-  font-size: 30px;  
-  padding: 20px 12px;
-  background-color: #A64030; 
-  margin-right: 3px;
+.fbshare a i {
+ font-size: 30px;
+padding: 2px 7px;
+background-color: #A64030;
+margin-right: 3px;
+}
+
+.fblike{
+background-color: #B34534;
+position: absolute;
+right: -71px;
+top: 86%;
+width: 97px;
+   -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.fblike:hover {
+  right:0;
+}
+
+
+.fblike a {
+  color: #FFFFFF;
+  display: block;
+  font-size: 24px;
+  text-transform: lowercase;
+}
+
+.fblike a i {
+font-size: 29px;
+padding: 2px 1px;
+background-color: #A64030;
+margin-right: 3px;
 }
 
  
@@ -393,7 +433,7 @@ h2 {
 **************************/
 #event {
   background-color: #33888F;
-  background-image: url("../images/performar-bg.jpg");
+  background-image: url("../images/performa-bg.jpg");
   background-position: 50% 0;
   background-size: contain;
   position: relative;
@@ -402,8 +442,8 @@ h2 {
 
 .guitar {
   position: absolute;
-  right:0;
-  top: 0
+right: -39%;
+top: 30%;
 }
 
 
@@ -420,13 +460,21 @@ h2 {
   margin-bottom: 70px;
 }
 
+.eventimage{
+    border-radius: 50%;
+    width: 69%;
+}  
+.eventimage:hover{
+    opacity: .8;
+}
+
 .single-event h4 {
-  color: #FFFFFF;
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 26px;
-  margin-top: 25px;
-  text-transform: uppercase;
+  color: #FFF;
+font-size: 20px;
+line-height: 24px;
+margin-top: 25px;
+text-transform: uppercase;
+font-weight: 300;
 }
 
 
@@ -434,6 +482,7 @@ h2 {
   font-size: 18px;
   font-weight: 100;
   display: block;
+  text-align: left;
 }
 
 #event-carousel {
@@ -462,38 +511,47 @@ h2 {
 **************************/
 
 #about {
-  background-color: #75B46E;  
+  background-color: #195D96; 
   position: relative;  
   width: 100%;
   display: flex;
+  background-attachment: fixed;
 }
 
-.guitar2 {
+.airmozilla {
   top: 0;
-  width: 50%;
+  width: 28%;
+  padding: 0px 0px 0px 40px;
 }
 
-.guitar2 img {
+.airmozilla img {
   padding-top: 3%;
 }
 
 .about-content {
-  width: 50%;
-   background-image: url("../images/about-bg.jpg");
+  width: 72%;;
+  background-image: url("../images/woen.png");
+/* background: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/women.png');
+background: -moz-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/women.png');
+background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/women.png'); */
+backface-visibility: 100%;
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 70px 70px 110px;
+  padding: 42px 208px 110px;
+  background-attachment: fixed;
+  
 }
 
 
 #about h2 {
-  margin-bottom: 23px;
+  margin-bottom: 25px;
 }
 
-.about-content p {
+.about-content li {
   font-size: 17px;
-  font-family: 'Dosis',sans-serif;
+  font-family: 'SourceSansPro-ExtraLightIt';
+  margin-left: 8%;
 }
 
 #about .btn-primary {
@@ -516,7 +574,6 @@ h2 {
 
 #twitter {
   background-color: #ecedef;
-  background-image: url("../images/twitter-bg.jpg");
   background-position: center bottom;
   background-size: cover;
   background-repeat:no-repeat;
@@ -524,13 +581,23 @@ h2 {
   padding: 95px 0 90px;
   overflow: hidden;
 }
-
+#main-slider{
+    background-position: center center;
+}
 .twit {
   position: absolute;
   left: 0;
   top:-42%;
+  background-size: 200px;
+  opacity: .5;
 }
-
+.twit1{
+position: absolute;
+left: 77%;
+top: -42%;
+float: right;
+opacity: .5;
+}
 #twitter-feed .item {
   text-align: center;
 }
@@ -549,7 +616,7 @@ h2 {
 #twitter-feed .item p { 
   font-size: 24px;
   font-weight: 300;
-  font-family: 'Yanone Kaffeesatz','sans-serif';
+  font-family: 'SourceSansPro-ExtraLightIt';
 }
 
 #twitter-feed .item p {
@@ -584,11 +651,11 @@ h2 {
 
 #sponsor {
   background-color: #1881a2;
-  background-image: url("../images/sponsor-bg.jpg");
-  background-position:50% 0;
-  background-size: cover;
+  background-image: url("../images/light.png");
+  background-position:100%;
   background-repeat:no-repeat;
   position: relative;
+  
 }
 
 .light {
@@ -648,7 +715,7 @@ h2 {
 }
 
 #gmap {
-  height:450px;  
+  height:400px;  
 }
 
 
@@ -657,8 +724,8 @@ h2 {
 **************************/
 
 .contact-section {
-  background-color: #f7ab24;
-  background-image: url("../images/contact-bg.jpg");
+  background-color:#FFC740;
+/*   background-image: url("../images/contact-bg.jpg"); */
   background-position:60% 0;
   background-size:contain;
   background-repeat:no-repeat;  
@@ -668,7 +735,7 @@ h2 {
 .ear-piece {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 63px;
 }
 
 #contact .container {
@@ -740,7 +807,7 @@ h2 {
 
 #footer {
   background-color: #212121;
-  background-image: url("../images/footer-bg.jpg");
+/*   background-image: url("../images/footer-bg.jpg"); */
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
