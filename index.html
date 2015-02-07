@@ -11,6 +11,7 @@
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/animate.css" rel="stylesheet">	
 	<link href="css/responsive.css" rel="stylesheet">
+    <link href="css/timesheet.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
 	    <script src="js/html5shiv.js"></script>
@@ -103,11 +104,9 @@
 					</ul>
 				</div>
 			</div>
+            <div class="schedule"><button type="submit" onclick="load()"  class="btn btn-primary schedulebtn">Get Schedule</button></div>
 			<div class="fbshare">
 				<a href="#"><i class="fa fa-facebook"></i> <span>Share</span></a>
-			</div>
-            <div class="fblike">
-				<a href="#"><i class="fa fa-thumbs-o-up"></i> <span>Like</span></a>
 			</div>
 		</div>
 	</section><!--/#explore-->
@@ -122,64 +121,30 @@
 				</div>
 -->
 					<div id="event-carousel" class="carousel slide" data-interval="false">
-						<h2 class="heading">Helping Hands</h2>
-						<a class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-						<a class="even-control-right" href="#event-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+						<h2 class="heading center">Helping Hands</h2>
 						<div class="carousel-inner">
 							<div class="item active">
 								<div class="row">
 									<div class="col-sm-3">
-										<div class="single-event">
-											<img  class="img-responsive eventimage" src="images/event/larissa.jpeg" alt="larissa">
-											<h4>Larissa</h4>
-											<h5>Community Building</h5>
-										</div>
+										<div class="single-event  eventimage">
+											<img  class="img-responsive " src="images/event/Bhavana.jpe" alt="Bhavana">
+											<div class="center"><h4>Bhavana Bajaj</h4>
+											<h5>Firefox Os Release Manager</h5></div>
+                                        </div>
 									</div>
 									<div class="col-sm-3">
-										<div class="single-event">
-											<img class="img-responsive eventimage" src="images/event/janet.jpeg" alt="janet">
-											<h4>Janet</h4>
-											<h5>Mozilla Developer</h5>
-										</div>
+										<div class="single-event eventimage">
+											<img class="img-responsive " src="images/event/Shivani.jpg" alt="Shivani">
+											<div class="center"><h4>Shivani</h4>
+											<h5>Program Associate FAT</h5></div>
+                                        </div>
 									</div>
 									<div class="col-sm-3">
-										<div class="single-event">
-											<img class="img-responsive eventimage" src="images/event/netha.jpeg" alt="netha">
-											<h4>Netha Hussian</h4>
-											<h5>Wiki Girl</h5>
-										</div>
-									</div>
-                                    <div class="col-sm-3">
-										<div class="single-event">
-											<img class="img-responsive eventimage" src="images/event/netha.jpeg" alt="netha">
-											<h4>Netha Hussian</h4>
-											<h5>Wiki Girl</h5>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="row">
-									<div class="col-sm-3">
-										<div class="single-event">
-											<img class="img-responsive eventimage" src="images/event/larissa.jpeg" alt="larissa">
-											<h4>Larissa</h4>
-											<h5>Community Building</h5>
-										</div>
-									</div>
-									<div class="col-sm-3">
-										<div class="single-event">
-											<img class="img-responsive eventimage" src="images/event/janet.jpeg" alt="janet">
-											<h4>Janet</h4>
-											<h5>vocals, Mozilla Developer</h5>
-										</div>
-									</div>
-									<div class="col-sm-3">
-										<div class="single-event">
-											<img class="img-responsive eventimage" src="images/event/netha.jpeg" alt="netha">
-											<h4>Netha Hussian</h4>
-											<h5>Wiki Girl</h5>
-										</div>
+										<div class="single-event eventimage">
+											<img class="img-responsive " src="images/event/sijo.jpg" alt="Sijo">
+											<div class="center"><h4>Sijo Kuruvilla George</h4>
+											<h5>Startup Village Ex-CEO / Chairman</h5></div>
+                                        </div>
 									</div>
 								</div>
 							</div>
@@ -189,7 +154,7 @@
 			</div>			
 		</div>
 	</section><!--/#event-->
-
+<div id="Timesheet"></div>
 	<section id="about">
 		<div class="airmozilla">				
 			<img class="img-responsive" src="images/airmozilla.png" alt="airmozilla">
@@ -218,19 +183,19 @@
 				<div class="col-sm-6 col-sm-offset-3">
 					<div class="text-center carousel-inner center-block">
 						<div class="item active">
-							<img src="images/twitter/twitter1.png" alt="">
-							<p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit </p>
-							<a href="#">http://t.co/yY7s1IfrAb 2 days ago</a>
+							
+							<p> </p>
+							<a href="#"></a>
 						</div>
 						<div class="item">
-							<img src="images/twitter/twitter2.png" alt="">
-							<p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit </p>
-							<a href="#">http://t.co/yY7s1IfrAb 2 days ago</a>
+							
+							<p> </p>
+							<a href="#"></a>
 						</div>
 						<div class="item">
-							<img src="images/twitter/twitter3.png" alt="">
-							<p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit </p>
-							<a href="#">http://t.co/yY7s1IfrAb 2 days ago</a>
+							
+							<p> </p>
+							<a href="#"></a>
 						</div>
 					</div>
 					<a class="twitter-control-left" href="#twitter-feed" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -246,28 +211,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h2>Sponsors</h2>			
-						<a class="sponsor-control-left" href="#sponsor-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-						<a class="sponsor-control-right" href="#sponsor-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+						<h2 class="center">Support and Guidance</h2>			
 						<div class="carousel-inner container">
 							<div class="item active">
 								<ul>
-									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor1.png" alt=""></a></li>
-									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor2.png" alt=""></a></li>
-									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor3.png" alt=""></a></li>
-									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor4.png" alt=""></a></li>
-									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor5.png" alt=""></a></li>
-									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor6.png" alt=""></a></li>
-								</ul>
-							</div>
-							<div class="item">
-								<ul>
-									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor6.png" alt=""></a></li>
-									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor5.png" alt=""></a></li>
-									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor4.png" alt=""></a></li>
-									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor3.png" alt=""></a></li>
-									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor2.png" alt=""></a></li>
-									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor1.png" alt=""></a></li>
+									<li><a href="#"><img class="img-responsive support" src="images/sponsor/logo.png" alt=""></a></li>
+									<li><a href="#"><img class="img-responsive support" src="images/sponsor/Mozilla_Reps.png" alt=""></a></li>
+                                    <li><a href="#"><img class="img-responsive support" src="images/sponsor/mdn_logo_only_color.png" alt=""></a></li>
 								</ul>
 							</div>
 						</div>
@@ -295,17 +245,13 @@
 							<h3>Contact</h3>
 							<address>
 								E-mail: events@mozillakerala.org<br>
-								Phone: +1 (123) 456 7890<br>
-								Fax: +1 (123) 456 7891
+								Phone: +918113013426<br>
 							</address>
 						</div>
 						<div class="contact-address">
 							<h3>Contact</h3>
 							<address>
 								Sirajul Muneer C B<br>
-								Vaarikuzhi,<br>
-								Oombanpara<br>
-								Kolambi
 							</address>
                             <address>
 								Binoy Balu<br>
@@ -360,5 +306,11 @@
     <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
     <script type="text/javascript" src="js/jquery.nav.js"></script>
     <script type="text/javascript" src="js/main.js"></script>  
+    <script>
+        function load()
+        {
+            window.location.href = "schedule.html";
+        }
+    </script>
 </body>
 </html>
